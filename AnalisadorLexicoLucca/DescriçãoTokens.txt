@@ -1,0 +1,12 @@
+PALAVRA RESERVADA
+    main
+PONTUAÇÃO
+    { | ;
+VARIAVEL
+    (letra)+ (letra | digito)*
+NUMEROS
+    (0...9)+
+OPERADORES matematicos
+    + | - | * | / | **
+OPERADOR ATRIBUIÇÃO
+    =
