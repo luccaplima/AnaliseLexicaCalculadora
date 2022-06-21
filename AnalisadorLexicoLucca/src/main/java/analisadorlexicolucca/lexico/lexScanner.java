@@ -15,6 +15,7 @@ public class lexScanner {
             String txtConteudo;
             txtConteudo = new String(Files.readAllBytes(Paths.get(filename)), StandardCharsets.UTF_8);
             System.out.println(txtConteudo);
+            
             conteudo = txtConteudo.toCharArray();
             pos = 0;
         }
